@@ -17,3 +17,19 @@
 #### 语法一致
 #### --mixed 工作区不移动  本地库 暂存区 都移动
 
+### git分支学习
+#### master 主干
+#### 创建分支 git branch blue（分支名）
+#### 查看分支 git branch -v
+#### git checkout blue (分支名)
+#### 合并分支 1.切换到要合并的分支
+#### git merge blue 将blue分支的修改合并到 master上
+#### 解决同一文件的冲突 1删除特殊符号 2 修改文件保存 3 git add 文件名标记冲突已解决 4 git commit -m""
+
+### git与github连接，本地仓库与远程仓库的连接
+
+#### 创建远程库，在github上进行操作
+#### git remote -v  --查看git项目的别名
+#### git remote add 别名 分支 --创建别名
+#### git push 别名 分支 --推送到远程库
+#### git clone 地址 
