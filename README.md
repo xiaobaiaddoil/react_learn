@@ -21,7 +21,7 @@
 #### master 主干
 #### 创建分支 git branch blue（分支名）
 #### 查看分支 git branch -v
-#### git checkout blue (分支名)
+#### git checkout blue (分支名) --切换分支
 #### 合并分支 1.切换到要合并的分支
 #### git merge blue 将blue分支的修改合并到 master上
 #### 解决同一文件的冲突 1删除特殊符号 2 修改文件保存 3 git add 文件名标记冲突已解决 4 git commit -m""
